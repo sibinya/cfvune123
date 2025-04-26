@@ -1,0 +1,116 @@
+﻿<html>
+<head>
+    <title>Главная - Кулинарная библиотека</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+		
+            <h1 class="logo">Кулинарная библиотека</h1>
+            <p class="slogan">Откройте мир вкусов</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+          <div class="filter-section">
+            <div class="search-filter-container">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Поиск по рецептам..."
+                    id="searchInput"
+                >
+                <select class="category-filter" id="categoryFilter">
+                    <option value="all">Все категории</option>
+                    <option value="паста">Паста</option>
+                    <option value="салат">Салаты</option>
+                    <option value="курица">Курица</option>
+                    <option value="десерт">Десерты</option>
+                    <option value="суп">Супы</option>
+                </select>
+            </div>
+        </div>
+
+            <h2 class="section-title">Популярные рецепты</h2>
+            <div class="recipe-grid">
+               <div class="recipe-grid">
+    <!-- Паста Карбонара -->
+    <article class="recipe-card" data-category="паста" data-title="паста карбонара">
+        <img src="images/carbonara.jpg" alt="Паста Карбонара" class="recipe-image">
+        <div class="recipe-content">
+            <h3>Паста Карбонара</h3>
+            <p>Классическая итальянская паста с панчеттой и сыром пекорино</p>
+            <a href="recipes/pasta-carbonara.html" class="btn">Рецепт</a>	
+        </div>
+    </article>
+
+    <!-- Греческий салат -->
+    <article class="recipe-card" data-category="салат" data-title="греческий салат">
+        <img src="images/salad.jpg" alt="Греческий салат" class="recipe-image">
+        <div class="recipe-content">
+            <h3>Греческий салат</h3>
+            <p>Свежий салат с фетаксой, оливками и средиземноморскими овощами</p>
+            <a href="recipes/greek-salad.html" class="btn">Рецепт</a>
+        </div>
+    </article>
+
+    <!-- Цыпленок Терияки -->
+    <article class="recipe-card" data-category="цыпленок" data-title="цыпленок терияки">
+        <img src="images/teriyaki.jpg" alt="Цыпленок Терияки" class="recipe-image">
+        <div class="recipe-content">
+            <h3>Цыпленок Терияки</h3>
+            <p>Нежное куриное филе в сладко-соленом соусе терияки</p>
+            <a href="recipes/chicken-teriyaki.html" class="btn">Рецепт</a>
+        </div>
+    </article>
+
+    <!-- Шоколадный фондан -->
+    <article class="recipe-card" data-category="фондан" data-title="шоколадный фондан">
+        <img src="images/fondant.jpg" alt="Шоколадный фондан" class="recipe-image">
+        <div class="recipe-content">
+            <h3>Шоколадный фондан</h3>
+            <p>Десерт с хрустящей корочкой и текучей шоколадной сердцевиной</p>
+            <a href="recipes/chocolate-fondant.html" class="btn">Рецепт</a>
+        </div>
+    </article>
+
+    <!-- Тыквенный суп -->
+    <article class="recipe-card" data-category="суп" data-title="Тыквенный суп">
+        <img src="images/soup.jpg" alt="Тыквенный суп" class="recipe-image">
+        <div class="recipe-content">
+            <h3>Тыквенный суп</h3>
+            <p>Ароматный крем-суп с имбирем и кокосовым молоком</p>
+            <a href="recipes/pumpkin-soup.html" class="btn">Рецепт</a>
+        </div>
+    </article>
+</div>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="copyright">
+                <p>© 2025 Все права защищены</p>
+                <p>Кулинарная библиотека</p>
+                <p>Самара, ул. Самарская, 110</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19127.04996276446!2d50.09746938327595!3d53.18411010263041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661fd0ff9fcbdb%3A0xcde95994f7a72171!2sNebo!5e0!3m2!1sru!2sru!4v1745582937538!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
